@@ -39,7 +39,7 @@
 </div>
 
 
-<div class="row">
+<?/*<div class="row">
 	<div class="col-md-8 col-md-offset-2">
 		<h4>Cocktail Reception</h4>
 		<table class="table table-bordered">
@@ -49,7 +49,7 @@
 			</tr>
 			<tr>
 				<th>Date / Time</th>
-				<td>12th May 18:45 – 19:45</td>
+				<td>12th May 18:45 – 20:45</td>
 			</tr>
 			<tr>
 				<th>Dress Code</th>
@@ -57,20 +57,20 @@
 			</tr>
 		</table>
 	</div>
-</div>
+</div>*/?>
 
 
 <div class="row">
 	<div class="col-md-8 col-md-offset-2">
-		<h4>Dinner Reception</h4>
+		<h4>Cocktail & Dinner Reception</h4>
 		<table class="table table-bordered">
 			<tr>
 				<th>Venue</th>
-				<td><em>SALÓN LICEO</em>, Real Círculo de la Amistad (Córdoba, Andalucía, España)</td>
+				<td><em>PATIO DE LAS COLUMNAS</em>, Real Círculo de la Amistad (Córdoba, Andalucía, España)</td>
 			</tr>
 			<tr>
 				<th>Date / Time</th>
-				<td>12th May 19:45 – until the <em class="semibold">madrugada</em> (the early hours)</td>
+				<td>12th May 20:45 – until the <em class="semibold">madrugada</em> (the early hours)</td>
 			</tr>
 			<tr>
 				<th>Dress Code</th>
