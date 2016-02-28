@@ -12,22 +12,20 @@
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css">
 	<?=$this->Html->css('core'); ?>
 	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,400italic,600italic' rel='stylesheet' type='text/css'>
 	
 </head>
 <body class="default-layout">
-	<?//=$this->element('Layouts/nav-top-default');?>
 	
 	<div class="container">
 		<?=$this->element('Layouts/header-top-default');?>
 		<div class="row">
 			<div class="col-sm-12">
+				<?=$this->element('Layouts/nav-default');?>
 				<div class="well well-dark-transparent">
 					<div class="row">
-						<div class="col-sm-3">
-							<a href="/">Home</a> > <?=$title_for_layout;?>
-						</div>
-						<div class="col-sm-6">
-							<h1 class="text-center"><?=$title_for_layout;?></h1>
+						<div class="col-sm-12">
+							<h1><?=$title_for_layout;?></h1>
 						</div>
 					</div>
 					<?=$this->fetch('content'); ?>

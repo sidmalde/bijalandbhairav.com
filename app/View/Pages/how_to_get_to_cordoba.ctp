@@ -10,6 +10,7 @@
 
 <p>From Santa Justa train station, travellers can easily arrange onward travel to Córdoba.</p>
 
+<br />
 <div>
 	<ul class="nav nav-tabs nav-justified" role="tablist">
 		<li class="active"><a href="#malaga" aria-controls="home" role="tab" data-toggle="tab"><strong>From Málaga Airport</strong></a></li>

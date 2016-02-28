@@ -12,7 +12,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -112,7 +112,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  
   font-size: 1em;
 }
 button,
@@ -266,8 +266,8 @@ th {
     border: 1px solid #ddd !important;
   }
 }
-@font-face {
-  font-family: 'Glyphicons Halflings';
+@{
+  
   src: url('../fonts/glyphicons-halflings-regular.eot');
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
@@ -275,7 +275,7 @@ th {
   position: relative;
   top: 1px;
   display: inline-block;
-  font-family: 'Glyphicons Halflings';
+  
   font-style: normal;
   font-weight: normal;
   line-height: 1;
@@ -1085,7 +1085,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
   font-size: 14px;
   line-height: 1.42857143;
   color: #555555;
@@ -1095,7 +1095,7 @@ input,
 button,
 select,
 textarea {
-  font-family: inherit;
+  
   font-size: inherit;
   line-height: inherit;
 }
@@ -1187,7 +1187,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
   font-weight: 500;
   line-height: 1.2;
   color: #dd5600;
@@ -1535,7 +1535,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  ;
 }
 code {
   padding: 2px 4px;
@@ -5996,7 +5996,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6114,7 +6114,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6382,7 +6382,7 @@ button.close {
   width: 20px;
   height: 20px;
   line-height: 1;
-  font-family: serif;
+  ;
 }
 .carousel-control .icon-prev:before {
   content: '\2039';

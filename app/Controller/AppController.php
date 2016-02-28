@@ -91,12 +91,12 @@ class AppController extends Controller {
 		$boxes[] = array(
 			'img-source' =>  '/img/Backgrounds/IMG_0099.JPG',
 			'label' => 'Ask us a Question',
-			'link' => '#'
+			'link' => '/ask-us-a-question'
 		);
 		$boxes[] = array(
 			'img-source' =>  '/img/Backgrounds/IMG_0097.JPG',
 			'label' => 'Upload Your Media',
-			'link' => '#'
+			'link' => '/upload-your-media'
 		);
 		
 		$this->set('boxes', $boxes);

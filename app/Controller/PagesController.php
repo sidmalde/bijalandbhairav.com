@@ -99,6 +99,20 @@ class PagesController extends AppController {
 		$this->set(compact(array('title_for_layout')));
 	}
 	
+	function ask_us_a_question() {
+		$this->layout = 'default';
+
+		$title_for_layout = __('Ask us a Question');
+		$this->set(compact(array('title_for_layout')));
+	}
+	
+	function upload_your_media() {
+		$this->layout = 'default';
+
+		$title_for_layout = __('Upload your Media');
+		$this->set(compact(array('title_for_layout')));
+	}
+
 	function admin_index() {
 		$this->Page->contain(array(
 			'ChildPage',

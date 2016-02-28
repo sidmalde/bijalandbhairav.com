@@ -34,6 +34,8 @@
 	Router::connect('/accomodation', array('controller' => 'pages', 'action' => 'accomodation'));
 	Router::connect('/wedding-schedule', array('controller' => 'pages', 'action' => 'wedding_schedule'));
 	Router::connect('/places-to-visit', array('controller' => 'pages', 'action' => 'places_to_visit'));
+	Router::connect('/ask-us-a-question', array('controller' => 'pages', 'action' => 'ask_us_a_question'));
+	Router::connect('/upload-your-media', array('controller' => 'pages', 'action' => 'upload_your_media'));
 	
 
 

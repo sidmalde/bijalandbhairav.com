@@ -1,12 +1,10 @@
 <p>While this is one of the best times of year to visit Córdoba it is also the busiest! Therefore we are unable to make block bookings in many hotels.</p>
 
-<p>Currently we have some rooms available in Hospedaria Del Atalia. The rates are €109 from Sunday to Thursday and €159 on Friday and Saturday. If you wish to book one of these rooms the reservation is currently being held under Raja.</p>
-
 <p>In addition to hotels, AirBnb and Rentalia sites have a decent supply of self-catered apartments and houses.</p>
 
 <p>Options of hotels which have a decent amount of rooms available are the following and it is worth mentioning that you are part of a wedding party under the name of Raja:</p>
 
-<ul>
+<ul class="list-special">
 	<li>Hotel Córdoba Center</li>
 	<li>Sercotel Hotel Selu</li>
 	<li>Eurostars Palace</li>
