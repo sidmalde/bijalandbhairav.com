@@ -19,7 +19,7 @@
 			</tr>
 			<tr>
 				<th>Dress Code</th>
-				<td>Traditional and adapted for the warm weather. For those of you that wish to wear Indian attire and do not have any, please let us know and we can help you source.</td>
+				<td>Traditional and adapted for the warm weather. For those of you that wish to wear Indian attire and do not have any, please let us know and we can help you source</td>
 			</tr>
 		</table>
 	</div>
@@ -62,11 +62,11 @@
 
 <div class="row">
 	<div class="col-md-8 col-md-offset-2">
-		<h4>Cocktail & Dinner Reception</h4>
+		<h4>Wedding Reception</h4>
 		<table class="table table-bordered">
 			<tr>
 				<th>Venue</th>
-				<td><em>PATIO DE LAS COLUMNAS</em>, Real Círculo de la Amistad (Córdoba, Andalucía, España)</td>
+				<td><em>PATIO DE LAS COLUMNAS</em> followed by <em>SALÓN LICEO</em>, Real Círculo de la Amistad (Córdoba, Andalucía, España)</td>
 			</tr>
 			<tr>
 				<th>Date / Time</th>
