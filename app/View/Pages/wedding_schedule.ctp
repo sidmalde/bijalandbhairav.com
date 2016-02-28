@@ -70,7 +70,7 @@
 			</tr>
 			<tr>
 				<th>Date / Time</th>
-				<td>12th May 20:45 – until the <em class="semibold">madrugada</em> (the early hours)</td>
+				<td>12th May 18:45 – until the <em class="semibold">madrugada</em> (the early hours)</td>
 			</tr>
 			<tr>
 				<th>Dress Code</th>
