@@ -20,6 +20,13 @@
 	Router::connect('/system-management/users/:user/edit', array('controller' => 'users', 'action' => 'edit', 'admin' => true));
 	Router::connect('/system-management/users/:user/delete', array('controller' => 'users', 'action' => 'delete', 'admin' => true));
 	
+	// Users
+	Router::connect('/system-management/faqs', array('controller' => 'frequently_asked_questions', 'action' => 'index', 'admin' => true));
+	Router::connect('/system-management/faqs/new', array('controller' => 'frequently_asked_questions', 'action' => 'add', 'admin' => true));
+	Router::connect('/system-management/faqs/:faq', array('controller' => 'frequently_asked_questions', 'action' => 'view', 'admin' => true));
+	Router::connect('/system-management/faqs/:faq/edit', array('controller' => 'frequently_asked_questions', 'action' => 'edit', 'admin' => true));
+	Router::connect('/system-management/faqs/:faq/delete', array('controller' => 'frequently_asked_questions', 'action' => 'delete', 'admin' => true));
+	
 	// Pages
 	Router::connect('/system-management/dashboard', array('controller' => 'pages', 'action' => 'dashboard', 'admin' => true));
 	Router::connect('/content-management/pages', array('controller' => 'pages', 'action' => 'index', 'admin' => true));
@@ -34,7 +41,7 @@
 	Router::connect('/accomodation', array('controller' => 'pages', 'action' => 'accomodation'));
 	Router::connect('/wedding-schedule', array('controller' => 'pages', 'action' => 'wedding_schedule'));
 	Router::connect('/places-to-visit', array('controller' => 'pages', 'action' => 'places_to_visit'));
-	Router::connect('/ask-us-a-question', array('controller' => 'pages', 'action' => 'ask_us_a_question'));
+	Router::connect('/ask-us-a-question', array('controller' => 'frequently_asked_questions', 'action' => 'index'));
 	Router::connect('/upload-your-media', array('controller' => 'pages', 'action' => 'upload_your_media'));
 	
 

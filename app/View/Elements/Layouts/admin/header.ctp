@@ -7,7 +7,7 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		</button>
-		<a class="navbar-brand" href="/">Visaline Travel</a>
+		<a class="navbar-brand" href="/">Bijal &amp; Bhairav</a>
 	</div>
 	<!-- /.navbar-header -->
 
@@ -33,13 +33,7 @@
 		<div class="sidebar-nav navbar-collapse">
 			<ul class="nav" id="side-menu">
 				<li>
-					<a <?=(!empty($bodyClass) && $bodyClass == 'offers') ? 'class="active"' : '';?>href="<?=Router::url(array('controller' => 'offers', 'action' => 'index'));?>"><i class="fa fa-user fa-fw"></i> Offers</a>
-				</li>
-				<li>
-					<a <?=(!empty($bodyClass) && $bodyClass == 'regions') ? 'class="active"' : '';?>href="<?=Router::url(array('controller' => 'regions', 'action' => 'index'));?>"><i class="fa fa-globe fa-fw"></i> Regions</a>
-				</li>
-				<li>
-					<a <?=(!empty($bodyClass) && $bodyClass == 'pages') ? 'class="active"' : '';?>href="<?=Router::url(array('controller' => 'pages', 'action' => 'index'));?>"><i class="fa fa-book fa-fw"></i> Pages</a>
+					<a <?=(!empty($bodyClass) && $bodyClass == 'faqs') ? 'class="active"' : '';?>href="<?=Router::url(array('controller' => 'frequently_asked_questions', 'action' => 'index'));?>"><i class="fa fa-book"></i> FAQs</a>
 				</li>
 			</ul>
 		</div>

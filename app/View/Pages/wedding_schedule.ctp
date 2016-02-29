@@ -38,28 +38,6 @@
 	</div>
 </div>
 
-
-<?/*<div class="row">
-	<div class="col-md-8 col-md-offset-2">
-		<h4>Cocktail Reception</h4>
-		<table class="table table-bordered">
-			<tr>
-				<th>Venue</th>
-				<td><em>PATIO DE LAS COLUMNAS</em>, Real Círculo de la Amistad (Córdoba, Andalucía, España)</td>
-			</tr>
-			<tr>
-				<th>Date / Time</th>
-				<td>12th May 18:45 – 20:45</td>
-			</tr>
-			<tr>
-				<th>Dress Code</th>
-				<td>Formal elegance, preferably with colour (no black tie)</td>
-			</tr>
-		</table>
-	</div>
-</div>*/?>
-
-
 <div class="row">
 	<div class="col-md-8 col-md-offset-2">
 		<h4>Wedding Reception</h4>
@@ -80,12 +58,11 @@
 	</div>
 </div>
 
-
 <br/>
 <div class="row">
 	<div class="col-md-8 col-md-offset-2">
-		<div class="alert alert-info">
-			<h2 class="normal text-center">No Boxed Gifts Please</h2>
+		<div class="alert alert-info no-padding">
+			<h5 class="normal text-center">No Boxed Gifts Please</h5>
 		</div>
 	</div>
 </div>
