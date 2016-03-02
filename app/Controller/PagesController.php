@@ -78,18 +78,17 @@ class PagesController extends AppController {
 		$this->set(compact(array('title_for_layout')));
 	}
 	
-	function accomodation() {
+	function accommodation() {
 		$this->layout = 'default';
-
-		$title_for_layout = __('Accomodation');
+		$title_for_layout = __('Accommodation');
 		$this->set(compact(array('title_for_layout')));
 	}
 	
 	function wedding_schedule() {
 		$this->layout = 'default';
-
+		$weddingSchedule = true;
 		$title_for_layout = __('Wedding Schedule');
-		$this->set(compact(array('title_for_layout')));
+		$this->set(compact(array('title_for_layout', 'weddingSchedule')));
 	}
 	
 	function places_to_visit() {

@@ -38,7 +38,7 @@
 	// Content
 	Router::connect('/', array('controller' => 'pages', 'action' => 'home'));
 	Router::connect('/how-to-get-to-cordoba', array('controller' => 'pages', 'action' => 'how_to_get_to_cordoba'));
-	Router::connect('/accomodation', array('controller' => 'pages', 'action' => 'accomodation'));
+	Router::connect('/accommodation', array('controller' => 'pages', 'action' => 'accommodation'));
 	Router::connect('/wedding-schedule', array('controller' => 'pages', 'action' => 'wedding_schedule'));
 	Router::connect('/places-to-visit', array('controller' => 'pages', 'action' => 'places_to_visit'));
 	Router::connect('/ask-us-a-question', array('controller' => 'frequently_asked_questions', 'action' => 'index'));

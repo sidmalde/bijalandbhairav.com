@@ -75,8 +75,8 @@ class AppController extends Controller {
 		);
 		$boxes[] = array(
 			'img-source' =>  '/img/Backgrounds/Dog and people.png',
-			'label' => 'Accomodation',
-			'link' => '/accomodation'
+			'label' => 'Accommodation',
+			'link' => '/accommodation'
 		);
 		$boxes[] = array(
 			'img-source' =>  '/img/Backgrounds/Pomegranates.png',

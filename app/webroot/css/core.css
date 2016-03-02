@@ -766,3 +766,9 @@ ul {
 ul.list-special li:before {
 	content: "\2023 \0020";
 }
+
+img.ganesh {
+	float: right;
+	width: auto;
+	height: 200px;
+}

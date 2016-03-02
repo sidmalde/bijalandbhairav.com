@@ -1,9 +1,12 @@
-<h2>Save the Date</h2>
+<?/*<div class="row">
+	<div class="col-sm-9">
+		<h2>Save the Date</h2>
 
-<p>We do not have any other formal events planned except for the wedding on Thursday.</p>
+		<p>We do not have any other formal events planned except for the wedding on Thursday.</p>
 
-<p>We hope that you enjoy Córdoba either side of the Thursday and we are looking to organise something informal on the Wednesday and Friday but we will let you know closer to the time.</p>
-
+		<p>We hope that you enjoy Córdoba either side of the Thursday and we are looking to organise something informal on the Wednesday and Friday but we will let you know closer to the time.</p>
+	</div>
+</div>*/?>
 
 <div class="row">
 	<div class="col-md-8 col-md-offset-2">
