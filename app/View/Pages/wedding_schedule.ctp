@@ -31,7 +31,10 @@
 			</tr>
 			<tr>
 				<th>Date / Time</th>
-				<td>12th May 11:00 – 14:00</td>
+				<td>
+					12th May 10:45 – 13:00 - Ceremony <br/>
+					12th May 13:00 – 15:00 - Lunch
+				</td>
 			</tr>
 			<tr>
 				<th>Dress Code</th>
@@ -74,6 +77,15 @@
 	</div>
 </div>
 
+<br/>
+<div class="row">
+	<div class="col-md-8 col-md-offset-2">
+		<p class="text-medium text-center">All food served will be vegetarian.<br />
+			Please let us know directly if you have an intolerance, any alergies or special dietary requirements.</p>
+	</div>
+</div>
+
+<br/>
 <br/>
 <div class="row">
 	<div class="col-md-8 col-md-offset-2">
