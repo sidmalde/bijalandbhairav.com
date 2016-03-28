@@ -8,6 +8,19 @@
 	</div>
 </div>*/?>
 
+
+
+<div class="row">
+	<div class="col-sm-8 col-md-offset-2">
+		<h2>Save the Date</h2>
+
+		<p>We do not have any other formal events planned except for the wedding on Thursday.</p>
+
+		<p>We hope that you enjoy Córdoba either side of the Thursday and we are looking to organise something informal on the Wednesday and Friday but we will let you know closer to the time.</p>
+	</div>
+</div>
+<br />
+<br />
 <div class="row">
 	<div class="col-md-8 col-md-offset-2">
 		<h4>Wedding Ceremony</h4>
@@ -64,8 +77,7 @@
 <br/>
 <div class="row">
 	<div class="col-md-8 col-md-offset-2">
-		<div class="alert alert-info no-padding">
-			<h5 class="normal text-center">No Boxed Gifts Please</h5>
-		</div>
+		<p class="text-medium text-center"><em>Your presence at our wedding will be most cherished.<br />
+		However, should you wish to give us a present, kindly no boxed gifts.</em></p>
 	</div>
 </div>

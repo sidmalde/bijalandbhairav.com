@@ -31,12 +31,11 @@ body {
 }
 
 .text-company-name {
-	font-family: 'Lobster', cursive;
-	font-size: 3.2em;
-	background-color: rgba(0,0,0,0.9);
+	/*font-family: 'Lobster', cursive;*/
+	font-size: 2.6em;
+	background-color: rgba(255,255,255,0.8);
     border-top-right-radius: 75px;
     border-bottom-left-radius: 75px;
-    color: #E66512;
 }
 
 .text-contact {
@@ -45,7 +44,8 @@ body {
 	border-radius: 15px;
 	font-size: 1.2em;
 	background-color: rgba(0,0,0,0.85);
-	color: #E66512;
+	background-color: rgba(255,255,255,0.85);
+	color: #D00505;
 }
 
 .text-email-phone {
@@ -164,11 +164,11 @@ body {
 .navbar-nav.navbar-right:last-child{margin-right: 0px;}
 .no-style-list{ list-style: none;}
 .btn.text-left{ text-align: left;}
-a {color: #11A4DE;}
-a.highlight {color: #dd5600;}
-a:hover {color: #FFFFFF; text-decoration:none;}
-a:hover h4 {color: #FFFFFF; text-decoration:none;}
-a:hover i p {color: #FFFFFF; text-decoration:none;}
+a {color: #254CDE;}
+a.highlight {color: #D00505;}
+a:hover {color: #D00505; text-decoration:none;}
+a:hover h4 {color: #D00505; text-decoration:none;}
+a:hover i p {color: #D00505; text-decoration:none;}
 
 .text-xx-small { font-size: 0.7em; }
 .text-x-small { font-size: 0.9em; }
@@ -186,7 +186,10 @@ a:hover i p {color: #FFFFFF; text-decoration:none;}
 .well {padding: 10px;}
 
 .well-dark-transparent {
-	background-color: rgba(0,0,0,0.9);
+	color: #171717;
+	background: rgba(255,255,255,0.9) url("/img/Backgrounds/ganesh-bg3.png") center no-repeat;
+	background-size: contain;
+	text-shadow: 1px 1px 2px rgb(140, 140, 140);
 }
 
 .nav > li > a:hover, .nav > li > a:focus {
@@ -219,10 +222,14 @@ th.condensed, td.condensed{
 
 div.required.errorField label{ color: #900 !important; }
 div.required label:after{ content: ' *' }
-hr {border-bottom: 1px solid rgba(59,182,85, 1);}
+hr {border-bottom: 1px solid #D00505;}
 .top-spacer {margin-top: 20px;}
 body.admin-layout, body.default-layout {
   padding-top: 10px;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	color: #D00505 !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -665,9 +672,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #footer {
 	margin-top: 30px;
-	height: 65px;
+	/*height: 65px;*/
 	font-size: 14px;
-	background-color: rgba(0,0,0,1);
+	background-color: rgba(255,255,255,0.8);
+	color: #D00505;
 }
 
 #footer > .container {
@@ -751,10 +759,11 @@ table.large-header tr th {
 table tr th {
 	width: 25%;
 	text-align: right;
-	background: #000;
+	background: #B9B9B9;
 	font-weight:600;
 	font-size:16px;
 }
+
 
 table tr td {
 	line-height: 25px !h1,important;

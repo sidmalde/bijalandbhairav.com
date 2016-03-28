@@ -24,23 +24,16 @@
 				<?=$this->element('Layouts/nav-default');?>
 				<div class="well well-dark-transparent">
 					<div class="row">
-						<? if(isset($weddingSchedule)): ?>
-							<div class="col-sm-9">
-								<h1><?=$title_for_layout;?></h1>
-								<h2>Save the Date</h2>
-
-								<p>We do not have any other formal events planned except for the wedding on Thursday.</p>
-
-								<p>We hope that you enjoy Córdoba either side of the Thursday and we are looking to organise something informal on the Wednesday and Friday but we will let you know closer to the time.</p>
-							</div>
+						<?/* if(isset($weddingSchedule)): ?>
+							
 							<div class="col-sm-3">
 								<img class="ganesh" src="/img/Ganesh Test.png" />
 							</div>
-						<? else: ?>
+						<? else: */?>
 							<div class="col-sm-12">
 								<h1><?=$title_for_layout;?></h1>
 							</div>
-						<? endif; ?>
+						<?/* endif; */?>
 					</div>
 					<?=$this->fetch('content'); ?>
 				</div>

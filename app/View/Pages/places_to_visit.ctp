@@ -1,46 +1,6 @@
-<p>Córdoba is full of history. It is the city of las tres culturas (the three cultures where Islam, Christianity and Judaism flourished together for over a hundred years). As a result, the architecture is quite unique. A good website with plenty of detail is <a href="http://www.andalucia.com/cities/Córdoba/" target="_blank">Andalucia.com</a>. The site also offers the main things to do in other cities in Andalucia.</p>
-
-<p>During the wedding period (2nd to 15th May 2016), there will be a festival called <a href="http://www.cordoba24.info/html/patios.html" target="_blank">La Fiesta de los Patios</a></p>
-<p>Approximately 50 patios that are in a competition will be open to the public and will be decorated with an abundance of flowers. 
-Opening and closing time of the patios every day: 11.00 to 14.00 and from 18.00 a 22.00. Entry is free, without the need to reserve.</p>
+<p>Córdoba is full of history. It is the city of las tres culturas (the three cultures where Islam, Christianity and Judaism flourished together for over a hundred years). As a result, the architecture is quite unique. A good website with plenty of details is <a href="http://www.andalucia.com/cities/Córdoba/" target="_blank">Andalucia.com</a>. This site offers information about the main things to do in other cities in Andalucia. For those looking for a local Travel Agent to organise further trips: <a href="http://www.viajeselcorteingles.es/">Viajes El Corte Inglés</a></p>
 
 <br />
-<hr />
-
-<div class="row">
-	<div class="col-sm-6">
-		<h5>Best zones to visit in Córdoba:</h5>
-		<ul class="list-special">
-			<li>Zona de Santa Marina-San Andrés</li>
-			<li>Zona de San Agustín-San Lorenzo</li>
-			<li>Zona de Regina-La Magdalena</li>
-			<li>Zona de San Pedro-Santiago</li>
-			<li>Zona de la Judería</li>
-			<li>Zona del Alcázar Viejo (San Basilio)</li>
-		</ul>
-	</div>
-	<div class="col-sm-6">
-		<h5>Hammam and Spa Facilities</h5>
-		<ul class="list-special">
-			<li><a href="http://cordoba.hammamalandalus.com/en/" target="_blank">Hammam Al-Andalus</a></li>
-			<li><a href="http://xn--baosarabesdecordoba-w3b.com/" target="_blank">Baños Arabes de Córdoba</a></li>
-		</ul>
-
-		<h5>Conservatoires and Concerts</h5>
-		<ul class="list-special">
-			<li><a href="http://www.cpmcordoba.com/#!calendario/cq2w" target="_blank">Conservatorio Profesional “Musico Ziryab” de Córdoba</a></li>
-			<li><a href="http://www.csmcordoba.com/conciertos" target="_blank">Conservatorio Superior de Música “Rafael Orozco” de Córdoba</a></li>
-		</ul>
-
-		<h5>Walking Tours</h5>
-		<ul class="list-special">
-			<li><a href="https://www.getyourguide.co.uk/cordoba-l1689/walking-tours-tc3" target="_blank">There are a number of walking tours that can be enjoyed in the city</a></li>
-		</ul>
-	</div>
-</div>
-
-<br /><br />
-<hr />
 
 <h5>Main sites to visit in Córdoba</h5>
 <table class="table table-bordered">
@@ -85,3 +45,57 @@ Opening and closing time of the patios every day: 11.00 to 14.00 and from 18.00 
 		<td>The most famous (and most photographed) whitewashed, flower-filled street in Córdoba, close to the Mezquita.</td>
 	</tr>
 </table>
+
+
+
+<br />
+<hr />
+
+<div class="row">
+	<div class="col-sm-6">
+		<h5>La Fiesta de los Patios (The Festival of Courtyards)</h5>
+		
+		<p>During the wedding period (2nd to 15th May 2016), there will be a festival called <a href="http://www.cordoba24.info/html/patios.html" target="_blank">La Fiesta de los Patios</a></p>
+		<p>Approximately 50 patios that are in a competition will be open to the public and will be decorated with an abundance of flowers. 
+		Opening and closing time of the patios every day: 11.00 to 14.00 and from 18.00 a 22.00. Entry is free, without the need to reserve.</p>
+
+		<strong>Best areas to view:</strong>
+		<ul class="list-special">
+			<li>Zona de Santa Marina-San Andrés</li>
+			<li>Zona de San Agustín-San Lorenzo</li>
+			<li>Zona de Regina-La Magdalena</li>
+			<li>Zona de San Pedro-Santiago</li>
+			<li>Zona de la Judería</li>
+			<li>Zona del Alcázar Viejo (San Basilio)</li>
+		</ul>
+	</div>
+	<div class="col-sm-6">
+		<h5>Hammam and Spa Facilities</h5>
+		<ul class="list-special">
+			<li><a href="http://cordoba.hammamalandalus.com/en/" target="_blank">Hammam Al-Andalus</a></li>
+			<li><a href="http://xn--baosarabesdecordoba-w3b.com/" target="_blank">Baños Arabes de Córdoba</a></li>
+			<li><a href="http://www.qurtubasenses.com" target="_blank">Qurtuba Senses</a></li>
+		</ul>
+
+		<h5>Markets & Shopping</h5>
+		<ul class="list-special">
+			<li><a href="http://mercadovictoria.com/en/" target="_blank">Mercado Victoria Food Market</a></li>
+			<li><a href="http://sefarad.cordoba.es/en/contenido/4094/the-souk-zoco" target="_blank">Zoco De Artesanos - The Craftsmen's Souk</a></li>
+			<li><a href="https://www.virtualtourist.com/travel/Europe/Spain/Andalucia/Cordoba-270318/Shopping-Cordoba-TG-C-1.html#page=1&tgCount=0&themes=Local+Craft" target="_blank">Shopping</a></li>
+		</ul>
+
+		<h5>Conservatoires and Concerts</h5>
+		<ul class="list-special">
+			<li><a href="http://www.cpmcordoba.com/#!calendario/cq2w" target="_blank">Conservatorio Profesional “Musico Ziryab” de Córdoba</a></li>
+			<li><a href="http://www.csmcordoba.com/conciertos" target="_blank">Conservatorio Superior de Música “Rafael Orozco” de Córdoba</a></li>
+		</ul>
+
+		<h5>Walking Tours</h5>
+		<ul class="list-special">
+			<li><a href="https://www.getyourguide.co.uk/cordoba-l1689/walking-tours-tc3" target="_blank">There are a number of walking tours that can be enjoyed in the city</a></li>
+		</ul>
+	</div>
+</div>
+
+<br /><br />
+<hr />
