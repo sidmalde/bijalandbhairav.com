@@ -1,6 +1,6 @@
 <?php
 
-	Configure::write('debug', 1);
+	Configure::write('debug', 0);
 
 /**
  * Configure the Error handler used to handle errors for your application. By default
