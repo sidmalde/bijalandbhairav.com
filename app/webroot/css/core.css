@@ -781,3 +781,28 @@ img.ganesh {
 	width: auto;
 	height: 200px;
 }
+
+.accordion-group {
+	border: 1px solid #000;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.accordion-heading {
+	/*border: 1px solid #000;*/
+    padding: 2px;
+    /*border-radius: 4px;*/
+}
+.accordion-heading i {
+	font-size:25px;
+}
+.accordion-heading .accordion-question {
+	font-size:20px;
+	margin-left:10px;
+	line-height: 20px;
+	/*vertical-align:middle;*/
+}
+.accordion-inner p {
+	font-size: 16px;
+    color: #D00505;
+}
