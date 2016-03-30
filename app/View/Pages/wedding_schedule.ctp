@@ -51,7 +51,7 @@
 		<table class="table table-bordered">
 			<tr>
 				<th>Date / Time</th>
-				<td>12th May 14:00 – 18:00</td>
+				<td>12th May 15:00 – 18:45</td>
 			</tr>
 		</table>
 	</div>
@@ -81,7 +81,7 @@
 <div class="row">
 	<div class="col-md-8 col-md-offset-2">
 		<p class="text-medium text-center">All food served will be vegetarian.<br />
-			Please let us know directly if you have an intolerance, any alergies or special dietary requirements.</p>
+			Please let us know directly if you have an intolerance, any allergies or special dietary requirements.</p>
 	</div>
 </div>
 
