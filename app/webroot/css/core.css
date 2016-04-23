@@ -164,7 +164,8 @@ body {
 .navbar-nav.navbar-right:last-child{margin-right: 0px;}
 .no-style-list{ list-style: none;}
 .btn.text-left{ text-align: left;}
-a {color: #254CDE;}
+a {color: #DA6118;}
+.well-dark-transparent a {text-shadow: none; font-weight: 600; }
 a.highlight {color: #D00505;}
 a:hover {color: #D00505; text-decoration:none;}
 a:hover h4 {color: #D00505; text-decoration:none;}

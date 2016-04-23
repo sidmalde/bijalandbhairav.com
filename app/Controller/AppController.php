@@ -90,8 +90,8 @@ class AppController extends Controller {
 		);
 		$boxes[] = array(
 			'img-source' =>  '/img/Backgrounds/IMG_0099.JPG',
-			'label' => 'Ask us a Question',
-			'link' => '/ask-us-a-question'
+			'label' => 'Gift List',
+			'link' => '/gift-list'
 		);
 		$boxes[] = array(
 			'img-source' =>  '/img/Backgrounds/IMG_0097.JPG',

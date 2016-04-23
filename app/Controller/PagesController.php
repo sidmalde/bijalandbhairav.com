@@ -98,10 +98,10 @@ class PagesController extends AppController {
 		$this->set(compact(array('title_for_layout')));
 	}
 	
-	function ask_us_a_question() {
+	function gift_list() {
 		$this->layout = 'default';
 
-		$title_for_layout = __('Ask us a Question');
+		$title_for_layout = __('Gift List');
 		$this->set(compact(array('title_for_layout')));
 	}
 	

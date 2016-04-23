@@ -41,7 +41,7 @@
 	Router::connect('/accommodation', array('controller' => 'pages', 'action' => 'accommodation'));
 	Router::connect('/wedding-schedule', array('controller' => 'pages', 'action' => 'wedding_schedule'));
 	Router::connect('/places-to-visit', array('controller' => 'pages', 'action' => 'places_to_visit'));
-	Router::connect('/ask-us-a-question', array('controller' => 'frequently_asked_questions', 'action' => 'index'));
+	Router::connect('/gift-list', array('controller' => 'pages', 'action' => 'gift_list'));
 	Router::connect('/ask-us-a-question/ask', array('controller' => 'frequently_asked_questions', 'action' => 'add'));
 	Router::connect('/upload-your-media', array('controller' => 'pages', 'action' => 'upload_your_media'));
 	
