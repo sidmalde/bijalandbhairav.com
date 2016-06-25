@@ -34,13 +34,16 @@ class Album extends AppModel {
 	}
 
 	function getAlbum($slug) {
-		$this->contain('Upload');
+		$this->contain(array(
+			'Upload' => array(
+				'order' => array(
+					'Upload.display_order'
+				),
+			) 
+		));
 		$options = array(
 			'conditions' => array(
 				'Album.slug' => $slug,
-			),
-			'order' => array(
-				'Upload.display_order'
 			),
 		);
 		return $this->find('first', $options);
