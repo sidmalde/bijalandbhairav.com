@@ -39,6 +39,9 @@ class Album extends AppModel {
 			'conditions' => array(
 				'Album.slug' => $slug,
 			),
+			'order' => array(
+				'Upload.display_order'
+			),
 		);
 		return $this->find('first', $options);
 	}
