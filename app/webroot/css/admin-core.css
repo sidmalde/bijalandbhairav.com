@@ -162,3 +162,37 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   border-bottom: 1px solid #DDD;
   border-right: 1px solid #DDD;
 }
+
+.album-box-container {
+  height: 200px;
+  margin: 5px;
+  padding: 5px;
+  border: 3px Solid #0000FF;
+}
+
+.image-box-container {
+  height: 180px;
+  margin: 5px;
+  padding: 5px;
+  border: 3px Solid #ccc;
+}
+
+.image-box-container img {
+  max-width: 120px;
+  max-height: 120px;
+}
+
+input[type="checkbox"] {
+  display:none;
+}
+
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    background:url('/img/check_radio_sheet.png') left top no-repeat;
+}
+
+input[type="checkbox"]:checked + label span {
+    background:url('/img/check_radio_sheet.png') -19px top no-repeat;
+}

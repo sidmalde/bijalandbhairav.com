@@ -269,6 +269,11 @@ h5 {
 	font-weight: 600;
 }
 
+h6 {
+	font-size: 1.1em;
+	font-weight: 600;
+}
+
 h1.normal, h2.normal, h3.normal, h4.normal, h5.normal, h6.normal {
 	color: #105475;
 	margin-top: 10px;
@@ -806,4 +811,65 @@ img.ganesh {
 .accordion-inner p {
 	font-size: 16px;
     color: #D00505;
+}
+
+.bar {
+    height: 18px;
+    background: green;
+}
+
+span.preview canvas {
+	max-width: 100px;
+	height: 50px;
+}
+
+
+.album-box-container {
+	min-height: 200px;
+	width: 195px;
+	margin: 10px auto;
+	padding: 5px;
+	border: 3px Solid #CCC;
+}
+
+.album-box-container:hover {
+	border: 3px Solid #333;
+}
+
+.album-box-container img {
+	width: 180px;
+	height: 180px;
+	border: none;
+}
+
+.album-box-container p {
+	text-align: center;
+	margin: 5px 0px;
+}
+
+.image-box-container {
+	height: 180px;
+	margin: 5px;
+	padding: 5px;
+	border: 3px Solid #ccc;
+}
+
+.image-box-container img {
+  max-width: 120px;
+  max-height: 120px;
+}
+
+input[type="checkbox"] {
+  display:none;
+}
+
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    background:url('/img/check_radio_sheet.png') left top no-repeat;
+}
+
+input[type="checkbox"]:checked + label span {
+    background:url('/img/check_radio_sheet.png') -19px top no-repeat;
 }

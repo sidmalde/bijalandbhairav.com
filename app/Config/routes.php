@@ -2,6 +2,7 @@
 
 	Router::connect('/', array('controller' => 'pages', 'action' => 'home'));
 	Router::connect('/login', array('controller' => 'users', 'action' => 'login'));
+	Router::connect('/register', array('controller' => 'users', 'action' => 'register'));
 	Router::connect('/logout', array('controller' => 'users', 'action' => 'logout'));
 	Router::connect('/search', array('controller' => 'pages', 'action' => 'search'));
 	
@@ -34,6 +35,13 @@
 	Router::connect('/content-management/pages/:page', array('controller' => 'pages', 'action' => 'view', 'admin' => true));
 	Router::connect('/content-management/pages/:page/edit', array('controller' => 'pages', 'action' => 'edit', 'admin' => true));
 	Router::connect('/content-management/pages/:page/delete', array('controller' => 'pages', 'action' => 'delete', 'admin' => true));
+
+	// Albums
+	Router::connect('/gallery-management/albums', array('controller' => 'albums', 'action' => 'index', 'admin' => true));
+	Router::connect('/gallery-management/albums/new', array('controller' => 'albums', 'action' => 'add', 'admin' => true));
+	Router::connect('/gallery-management/albums/:album', array('controller' => 'albums', 'action' => 'view', 'admin' => true));
+	Router::connect('/gallery-management/albums/:album/edit', array('controller' => 'albums', 'action' => 'edit', 'admin' => true));
+	Router::connect('/gallery-management/albums/:album/delete', array('controller' => 'albums', 'action' => 'delete', 'admin' => true));
 	
 	// Content
 	Router::connect('/', array('controller' => 'pages', 'action' => 'home'));
@@ -44,6 +52,9 @@
 	Router::connect('/gift-list', array('controller' => 'pages', 'action' => 'gift_list'));
 	Router::connect('/ask-us-a-question/ask', array('controller' => 'frequently_asked_questions', 'action' => 'add'));
 	Router::connect('/upload-your-media', array('controller' => 'pages', 'action' => 'upload_your_media'));
+	Router::connect('/upload', array('controller' => 'uploads', 'action' => 'add'));
+	Router::connect('/gallery', array('controller' => 'albums', 'action' => 'index'));
+	Router::connect('/gallery/:slug', array('controller' => 'albums', 'action' => 'view'));
 	
 
 

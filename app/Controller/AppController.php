@@ -14,7 +14,7 @@ class AppController extends Controller {
 			'authorize' => array(
 				'Actions' => array('actionPath' => 'controllers')
 			),
-			'loginAction' => array('controller' => 'users', 'action' => 'login', 'admin' => null),
+			// 'loginAction' => array('controller' => 'users', 'action' => 'login', 'admin' => null),
 			'logoutRedirect' => array('controller' => 'users', 'action' => 'login'),
 			'authenticate' => array(
 				'Form' => array(
@@ -29,7 +29,7 @@ class AppController extends Controller {
 		),
 		'Session',
 		'Email',
-		/* 'DebugKit.Toolbar', */
+		'DebugKit.Toolbar',
 	);
 	public $helpers = array('Html', 'Form', 'Session', 'Number', 'Time', 'Text');
 	
@@ -99,10 +99,20 @@ class AppController extends Controller {
 			'link' => '/upload-your-media'
 		);
 		
+		if ($this->Auth->user()) {
+			App::import('Model', 'User');
+			$this->User = new User();
+
+			$this->User->contain();
+			$this->currentUser = $this->User->findById($this->Auth->user('id'));
+			Configure::write('currentLoggedInUser', $this->currentUser);
+		}
+
 		$this->set('boxes', $boxes);
 		$this->set('backgroundSongPath', $this->getPlaylist());
 		$this->set('userGenders', $this->userGenders);
 		$this->set('userTitles', $this->userTitles);
+		$this->set('currentUser', $this->currentUser);
 	}
 	
 	function getPlaylist() {

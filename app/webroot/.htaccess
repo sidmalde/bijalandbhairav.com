@@ -1,6 +1,48 @@
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteRule ^ index.php [L]
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+	ExpiresActive On
+	
+	# Set Expires header to current time by default
+	ExpiresDefault A0
+	 
+	<FilesMatch "\.(css|js|flv|ico|pdf|avi|mov|ppt|doc|mp3|wmv|wav|gif|png|jpg|jpeg)$">
+		ExpiresDefault "access plus 30 days"
+	</FilesMatch>
 </IfModule>
+## EXPIRES CACHING ##
+
+AddDefaultCharset UTF-8
+
+<IfModule mod_rewrite.c>
+        RewriteEngine On
+        Rewriterule ^sitemap_be\.xml$ sitemaps/sitemap_be.xml [L]
+        Rewriterule ^sitemap_br\.xml$ sitemaps/sitemap_br.xml [L]
+        Rewriterule ^sitemap_cl\.xml$ sitemaps/sitemap_cl.xml [L]
+        Rewriterule ^sitemap_de\.xml$ sitemaps/sitemap_de.xml [L]
+        Rewriterule ^sitemap_dk\.xml$ sitemaps/sitemap_dk.xml [L]
+        Rewriterule ^sitemap_es\.xml$ sitemaps/sitemap_es.xml [L]
+        Rewriterule ^sitemap_fr\.xml$ sitemaps/sitemap_fr.xml [L]
+        Rewriterule ^sitemap_ie\.xml$ sitemaps/sitemap_ie.xml [L]
+        Rewriterule ^sitemap_it\.xml$ sitemaps/sitemap_it.xml [L]
+        Rewriterule ^sitemap_mx\.xml$ sitemaps/sitemap_mx.xml [L]
+        Rewriterule ^sitemap_nl\.xml$ sitemaps/sitemap_nl.xml [L]
+        Rewriterule ^sitemap_pt\.xml$ sitemaps/sitemap_pt.xml [L]
+        Rewriterule ^sitemap_se\.xml$ sitemaps/sitemap_se.xml [L]
+        Rewriterule ^sitemap_uk\.xml$ sitemaps/sitemap_uk.xml [L]
+        Rewriterule ^sitemap_usa\.xml$ sitemaps/sitemap_usa.xml [L]
+
+        RewriteCond %{REQUEST_FILENAME} !-d
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+</IfModule>
+
+<FilesMatch "(^#.*#|\.(bak|conf|config|dist|fla|git|inc|ini|log|psd|sh|sql|sw[op])|~)$">
+    Order allow,deny
+    Deny from all
+    Satisfy All
+</FilesMatch>
+
+<Files  "cron_dispatcher.php">
+    Order deny,allow
+    Deny from all
+</Files>

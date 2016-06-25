@@ -4,10 +4,10 @@ App::uses('AuthComponent', 'Controller/Component');
 
 class User extends AppModel {
 	var $name = 'User';
-	var $displayField = 'fullnameNoTitle';
+	var $displayField = 'fullname';
 	var $actsAs = array('Containable', 'Acl' => array('type' => 'requester', 'enabled' => false));
 	var $hasMany = array(
-		'UserDataValue'
+		'Upload'
 	);
 	var $belongsTo = array(
 		'Group' => array(

@@ -153,7 +153,7 @@ class UsersController extends AppController {
 			if ($this->Auth->user('group_id') == '526b00e9-2d10-41bd-bf86-1b64d96041f1') {
 				$this->redirect('/system-management/users');
 			} else {
-				$this->redirect(array('controller' => 'pages', 'action' => 'dashboard', 'admin' => true));
+				$this->redirect(array('controller' => 'pages', 'action' => 'upload_your_media'));
 			}
 		} else {
 			if ($this->request->is('post')) {
@@ -161,7 +161,7 @@ class UsersController extends AppController {
 					if ($this->Auth->user('group_id') == '52c1e2df-87c0-4b14-9ba9-0dc0d96041f1') {
 						$this->redirect('/dashboard');
 					} else {
-						$this->redirect('/myportal');
+						$this->redirect('/upload-your-media');
 					}
 				} else {
 					$this->Session->setFlash(__('Your email or password was incorrect.'), 'flash_failure');
@@ -170,31 +170,74 @@ class UsersController extends AppController {
 		}
 	}
 
-	/* public function register() {
+	public function register() {
 		$this->layout = 'default';
+		// $this->autoRender = false;
+
 		if (!empty($this->request->data)) {
-			if ($this->request->data['User']['password'] == $this->request->data['User']['confirm_password']) {
-				//Set Active
-				$this->request->data['User']['active'] = true;
-				//Set Not Deleted
-				$this->request->data['User']['deleted'] = false;
-				//Set Group to Users
-				$this->request->data['User']['group_id'] = '526b03c3-5f10-4cdb-ade1-1b64d96041f1';
-				
-				$this->User->create();
-				if ($this->User->save($this->request->data)) {
-					// Auto Log in
-					$this->Session->setFlash(__('Thank you for registering, you are now logged in.'), 'flash_success');
-					
-				} else {
-					$this->Session->setFlash(__('Invalid request'), 'flash_failure');
-				}
+			$this->request->data['User']['active'] = true;
+			$this->request->data['User']['deleted'] = false;
+			$this->request->data['User']['group_id'] = '52c1e330-00b4-49b1-a379-0dc0d96041f1';
+			
+			$rawPass = $this->_generatePassword();
+			$this->request->data['User']['password'] = $this->Auth->password($rawPass);
+			$this->request->data['User']['raw_pass'] = $rawPass;
+
+			$this->User->create();
+			if ($this->User->save($this->request->data)) {
+				$this->request->data['User']['id'] = $this->User->id;
+				$this->Session->setFlash(__('Thank you for registering. You have been Automatically logged in. Your password is %s.', $rawPass), 'flash_success');	
+				// Auto Log in
+				$this->Auth->login($this->request->data['User']);
 			} else {
-				// Passwords do not match
-				$this->Session->setFlash(__('Passwords do not match, please try again'), 'flash_failure');
+				/*if (!empty($this->User->validationErrors)) {
+					$errors = '';
+					foreach ($this->User->validationErrors as $type => $errorArray) {
+						foreach ($errorArray as $index => $message) {
+							$errors .= $message.' ';
+						}
+					}
+					$this->Session->setFlash($errors, 'flash_failure');
+				} else {*/
+					$this->Session->setFlash(__('Unfortunately, something went wrong, please try again'), 'flash_failure');
+				/*}*/
 			}
 		}
-	} */
+
+		$title_for_layout = __('Upload your Media');
+		$this->set(compact(array('title_for_layout', 'rawPass')));
+		$this->render('../Pages/upload_your_media');
+	}
+
+	function _generatePassword() {
+		$length = 4;
+		$add_dashes = false;
+		$available_sets = 'lud';
+
+		$sets = array();
+		if(strpos($available_sets, 'l') !== false)
+			$sets[] = 'abcdefghjkmnpqrstuvwxyz';
+		if(strpos($available_sets, 'u') !== false)
+			$sets[] = 'ABCDEFGHJKMNPQRSTUVWXYZ';
+		if(strpos($available_sets, 'd') !== false)
+			$sets[] = '23456789';
+		if(strpos($available_sets, 's') !== false)
+			$sets[] = '!@#$%&*?';
+		$all = '';
+		$password = '';
+		foreach($sets as $set)
+		{
+			$password .= $set[array_rand(str_split($set))];
+			$all .= $set;
+		}
+		$all = str_split($all);
+		for($i = 0; $i < $length - count($sets); $i++)
+			$password .= $all[array_rand($all)];
+		
+		$password = str_shuffle($password);
+		
+		return $password;
+	}
 
 	public function logout() {
 		$this->Session->setFlash(__('You have now been logged out'), 'flash_success');

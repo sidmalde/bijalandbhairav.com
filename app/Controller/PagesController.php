@@ -107,6 +107,7 @@ class PagesController extends AppController {
 	
 	function upload_your_media() {
 		$this->layout = 'default';
+		// $this->layout = false;
 
 		$title_for_layout = __('Upload your Media');
 		$this->set(compact(array('title_for_layout')));

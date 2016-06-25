@@ -72,14 +72,14 @@ $(document).ready(function(){
 		});
 	}
 
-	if (!empty($(".redactor"))) {
+	/*if (!empty($(".redactor"))) {
 		$(".redactor").redactor({
 			minHeight: 300, // pixels
 			replaceDivs: false,
 	        paragraphize: false,
 	        removeEmpty: ['strong', 'em', 'span', 'p']
 		});
-	}
+	}*/
 
 	/* nicEditors.allTextAreas(
 		{
@@ -89,6 +89,7 @@ $(document).ready(function(){
 	); */
 
 	// $('.datatable').DataTable();
+
 });
 
 /***** Functions *****/
