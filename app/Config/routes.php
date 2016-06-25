@@ -42,6 +42,13 @@
 	Router::connect('/gallery-management/albums/:album', array('controller' => 'albums', 'action' => 'view', 'admin' => true));
 	Router::connect('/gallery-management/albums/:album/edit', array('controller' => 'albums', 'action' => 'edit', 'admin' => true));
 	Router::connect('/gallery-management/albums/:album/delete', array('controller' => 'albums', 'action' => 'delete', 'admin' => true));
+
+	// Albums
+	Router::connect('/uploads-management/uploads', array('controller' => 'uploads', 'action' => 'index', 'admin' => true));
+	Router::connect('/uploads-management/uploads/new', array('controller' => 'uploads', 'action' => 'add', 'admin' => true));
+	Router::connect('/uploads-management/uploads/:upload', array('controller' => 'uploads', 'action' => 'view', 'admin' => true));
+	Router::connect('/uploads-management/uploads/:upload/edit', array('controller' => 'uploads', 'action' => 'edit', 'admin' => true));
+	Router::connect('/uploads-management/uploads/:upload/delete', array('controller' => 'uploads', 'action' => 'delete', 'admin' => true));
 	
 	// Content
 	Router::connect('/', array('controller' => 'pages', 'action' => 'home'));
