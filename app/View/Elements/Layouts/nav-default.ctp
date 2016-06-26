@@ -6,6 +6,7 @@
 			<? foreach($boxes as $index => $box): ?>
 				<li><a class="" href="<?=$box['link'];?>" alt="<?=$box['label'];?>"><?=$box['label'];?></a></li>
 			<? endforeach; ?>
+				<li><a class="" href="/gallery" alt="Image Gallery">Gallery</a></li>
 
 			<? if(!empty($currentUser['User']['id'])): ?>
 				<li class="pull-right"><a href="/logout">Logout</a></li>

@@ -37,7 +37,7 @@ class Album extends AppModel {
 		$this->contain(array(
 			'Upload' => array(
 				'order' => array(
-					'Upload.display_order'
+					'Upload.filename'
 				),
 			) 
 		));
