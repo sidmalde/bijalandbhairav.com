@@ -24,7 +24,14 @@ class Album extends AppModel {
 	}
 
 	function getAllAlbumsAndImages() {
-		$this->contain('Thumbnail', 'Upload');
+		$this->contain(array(
+			'Thumbnail',
+			'Upload' => array(
+				'order' => array(
+					'Upload.filename'
+				),
+			)
+		));
 		$options = array(
 			'order' => array(
 				'Album.display_order' => 'ASC'
