@@ -17,7 +17,7 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'sidmalde',
-		'password' => 'El3phant',
+		'password' => 'F3rrari1',
 		'database' => 'bijalandbhairav',
 		'prefix' => '',
 	);
